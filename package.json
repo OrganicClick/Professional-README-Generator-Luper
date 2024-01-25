@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/OrganicClick/Professional-README-Generator-Luper/issues"
   },
-  "homepage": "https://github.com/OrganicClick/Professional-README-Generator-Luper#readme"
+  "homepage": "https://github.com/OrganicClick/Professional-README-Generator-Luper#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
