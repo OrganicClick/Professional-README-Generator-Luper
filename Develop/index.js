@@ -103,7 +103,7 @@ const promptUser = async () => {
         `;
       
       //Writes the README content from above to a README.md file
-      fs.writeFileSync(README.md, readmeContent)
+      fs.writeFileSync('README.md', readmeContent)
 
       console.log('README.md created successfully!');
     };
