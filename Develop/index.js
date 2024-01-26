@@ -101,9 +101,11 @@ const promptUser = async () => {
     - GitHub: [${answers.githubUsername}](https://github.com/${answers.githubUsername})
     - Email: ${answers.email}
         `;
+
+      
       }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     promptUser();
 };
