@@ -58,10 +58,10 @@ const promptUser = async () => {
 // TODO: Create a function to write README file
  // Generate README based on user responses
  generateREADME(answers);
-} catch (error) {
-  console.error('Error during prompt:', error);
-}
-};
+    } catch (error) {
+    console.error('Error during prompt:', error);
+    }
+    };
 
 // TODO: Create a function to initialize app
 function init() {}
