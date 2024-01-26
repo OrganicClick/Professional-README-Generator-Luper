@@ -63,6 +63,46 @@ const promptUser = async () => {
     }
     };
 
+  const generateREADME = (answers) => {
+    //Build README content based on user responses
+    const readmeContent = `
+    # ${answers.projectTitle}
+
+    ## Description
+    ${answers.description}
+
+    ## Table of Contents
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Tests](#tests)
+    - [Questions](#questions)
+
+    ## Installation
+    ${answers.installation}
+
+    ## Usage
+    ${answers.usage}
+
+    ## License
+    ![License Badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+      
+    This application is covered under the ${answers.license} license.
+
+    ## Contributing
+    ${answers.contributing}
+
+    ## Tests
+    ${answers.tests}
+
+    ## Questions
+    For additional questions, contact:
+    - GitHub: [${answers.githubUsername}](https://github.com/${answers.githubUsername})
+    - Email: ${answers.email}
+        `;
+      }
+
 // TODO: Create a function to initialize app
 function init() {
     promptUser();
