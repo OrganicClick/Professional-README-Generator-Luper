@@ -35,3 +35,50 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 REFERENCES:
+Source for understanding npm-init setup:
+	https://docs.npmjs.com/cli/v10/commands/npm-init
+	https://stackoverflow.com/questions/40785808/npm-init-what-on-earth-are-the-questions-asking
+	https://nodesource.com/blog/the-basics-getting-started-with-npm/
+
+Setting up gitignore file:
+	https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+	https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-add-to-repo/
+
+Attempting to exclude node_modules:
+	https://blogboard.io/blog/knowledge/git-ignore-node-modules/
+
+Reference for creating a Professional README:
+	https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+Source of cloned Starter code for this project:
+	https://github.com/coding-boot-camp/potential-enigma
+
+Cloned Github SSH URL (Starter code):
+	git@github.com:coding-boot-camp/potential-enigma.git
+
+Source for inquirer package installed:
+	https://www.npmjs.com/package/inquirer/v/8.2.4
+
+Reference for use of arrow functions in JavaScript:
+	https://www.w3schools.com/js/js_arrow_function.asp
+
+Reference for use of async functions in JavaScript:
+	https://www.w3schools.com/js/js_async.asp
+
+Referenced for examples of index.js syntax/structure of user prompt questions:
+	https://dev.to/ghostaram/build-a-cli-based-project-generator-with-node-56ld
+
+Resource for using node file system (fs):
+	https://www.w3schools.com/nodejs/nodejs_filesystem.asp
+
+Also sourced lecture notes from GWU Coding Bootcamp (GitLab 10-OOP/01-Activities) for structure and syntax examples 
+that I referenced for creation of this project.
+
+Referenced for creation of a function to initialize app (syntax):
+	https://stackoverflow.com/questions/40390468/how-to-run-node-js-module-initialization-properly
+
+Referenced for use of “try” and “catch” and “throw”:
+	https://www.w3schools.com/js/js_errors.asp
+
+Reference for using fs.writeFileSync():
+	https://www.geeksforgeeks.org/node-js-fs-writefilesync-method/#
