@@ -101,9 +101,12 @@ const promptUser = async () => {
     - GitHub: [${answers.githubUsername}](https://github.com/${answers.githubUsername})
     - Email: ${answers.email}
         `;
-
       
-      }
+      //Writes the README content from above to a README.md file
+      fs.writeFileSync(README.md, readmeContent)
+
+      console.log('README.md created successfully!');
+    };
 
 // Create a function to initialize app
 function init() {
