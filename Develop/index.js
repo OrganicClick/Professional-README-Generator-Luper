@@ -54,11 +54,14 @@ const promptUser = async () => {
           message: 'Enter your email address:',
         },
       ]);
-    }
-}
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+ // Generate README based on user responses
+ generateREADME(answers);
+} catch (error) {
+  console.error('Error during prompt:', error);
+}
+};
 
 // TODO: Create a function to initialize app
 function init() {}
