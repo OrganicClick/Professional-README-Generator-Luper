@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const promptUser = async () => {
     try {
       const answers = await inquirer.prompt([
@@ -55,7 +55,6 @@ const promptUser = async () => {
         },
       ]);
 
-// TODO: Create a function to write README file
  // Generate README based on user responses
  generateREADME(answers);
     } catch (error) {
