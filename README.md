@@ -1,16 +1,11 @@
 # Professional-README-Generator-Luper
 
-The following README.md file will be used to outline the purpose for this project, user story, acceptance criteria,
+## Description
+README.md file will be used to outline the purpose for this project, user story, acceptance criteria,
 and other relevant content to satisfy the requirements for this assignment.
 
 BOTTOM-LINE: This project seeks to create a command-line interface application that dynamically generates a professional
 README.md file from a user's input using the Inquirer package.
-
-VIDEO OF INTENDED USER FLOW:
-(IMPORT VIDEO HERE)
-
-SCREENSHOTS:
-![(SCREENSHOTS OF PROJECT IN-ACTION)](Develop/assets/img/Professional_README_CLI_App_Terminal.png)
 
 USER STORY:
 AS A developer
@@ -34,7 +29,46 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-REFERENCES:
+## Installation
+Please adhere to the following steps to successfully install this application:
+
+1. Clone the Repository:
+    Clone the repository to your local machine using the following command:
+
+    git clone git@github.com:OrganicClick/Professional-README-Generator-Luper.git
+
+2. Navigate to the Project Directory:
+
+    cd your-repo
+
+3. Install Dependencies:
+    Install the required Node.js dependencies using npm (Node Package Manager):
+
+    npm install
+
+4. Run the CLI Application:
+    Run the CLI application to generate a README file:
+
+    node index.js
+
+5. Follow the prompts to enter information about your project.
+
+6. Find the Generated README:
+    Once you've completed the prompts, the generated README file will be created in the project's root directory with the name README.md.
+
+    You can open and review the generated README file to ensure it meets your expectations.
+
+
+## Usage
+VIDEO OF INTENDED USER FLOW:
+(IMPORT VIDEO HERE)
+
+SCREENSHOTS:
+![(SCREENSHOTS OF PROJECT IN-ACTION)](Develop/assets/img/Professional_README_CLI_App_Terminal.png)
+
+
+
+## References:
 Source for understanding npm-init setup:
 	https://docs.npmjs.com/cli/v10/commands/npm-init
 	https://stackoverflow.com/questions/40785808/npm-init-what-on-earth-are-the-questions-asking
